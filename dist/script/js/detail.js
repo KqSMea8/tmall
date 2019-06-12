@@ -1,0 +1,1 @@
+"use strict";$.ajax({url:"http://10.31.164.68/tmall/php/details.php",success:function(c){var t=JSON.parse(c);$bpic=$(".tb-booth img"),$slpic=$("#J_UlThumb li"),$slpic.each(function(c,i){$(i).find("img").attr("src",t["imgsrc"+c])}),$bpic.attr("src",t.imgsrc1)}});

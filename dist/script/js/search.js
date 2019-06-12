@@ -1,0 +1,1 @@
+"use strict";var oInput=$("#mallSearch input#mq");oInput.focus(function(){oInput.parent().next().css("color","#ddd")}),oInput.blur(function(){oInput.parent().next().css("color","#666")}),oInput.on("input",function(){""==oInput.val()?oInput.parent().next().css("visibility","visible"):oInput.parent().next().css("visibility","hidden")});

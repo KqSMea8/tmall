@@ -1,0 +1,1 @@
+"use strict";var tabheadLi=$("#J_FloorTMCS .floor-tab-head li"),tabCon=$("#J_FloorTMCS .floor-tab-content .floor-tab-detail");tabheadLi.mouseover(function(){alert(1),$(this).addClass("floor-current-tab").siblings().removeClass(),tabCon.eq($(this).index()).show().siblings().hide()});
